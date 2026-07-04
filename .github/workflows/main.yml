@@ -23,6 +23,6 @@ jobs:
 
       - name: Run bot
         env:
-          BOT_TOKEN: ${{ secrets.TOKEN }}
+          TOKEN: ${{ secrets.TOKEN }}
           ADMIN_ID: ${{ secrets.ADMIN_ID }}
         run: python bot.py
